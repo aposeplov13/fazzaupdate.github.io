@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)};function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n};function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+
+	<!-- Load Fonts CSS Start -->
+	<script>
+		loadCSS( "css/fonts.min.css?ver=1.0.0", false, "all" ); // Loading fonts, if the site is located in a subfolder
+		// loadLocalStorageCSS( "webfonts", "css/fonts.min.css?ver=1.0.0" ); // Loading fonts, if the site is at the root
+	</script>
+	<!-- Load Fonts CSS End -->
+
+	<!-- Load Custom CSS Start -->
+	<script>loadCSS( "libs/slick/slick.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "libs/slick/slick-theme.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "libs/fancybox/dist/jquery.fancybox.min.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "css/bootstrap.min.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "css/main.min.css?ver=1.0.0", false, "all" );</script>
+	<!-- Load Custom CSS End -->
+
+	<!-- Load Custom CSS Compiled without JS Start -->
+	<noscript>
+		<link rel="stylesheet" href="css/fonts.min.css">
+		<link rel="stylesheet" href="css/main.min.css">
+	</noscript>
+	<!-- Load Custom CSS Compiled without JS End -->
+
+	<!-- Custom Browsers Color Start -->
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<!-- Custom Browsers Color End -->
+
+</head>
+
+<body>
+	
+
+	<!-- Header -->
+	<header class="container-fliud sec-header">
+		<!-- header_block -->
+		<div class="container header_block">
+			<!-- header_wrap -->
+			<div class="row header_wrap">
+				<!-- sitename -->
+				<div id="sitename" class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-3 sitename">
+					<a class="sitename_link" href="/" title="Главная" >
+						<img class="sitename_link-logo img-fluid" id="sitename_link-logo" src="img/logo.png" alt="Главная"  >
+					</a>
+				</div><!-- sitename END -->
+				<!-- contact -->
+				<div id="contacts" class="col-12 col-sm-12 col-md-5 col-lg-6 col-xl-6 contacts">			
+					<p class="contacts_worktime" >Сегодня работаем с 10:00 до 20:00</p>
+					<a class="contacts_link" href=""><img class="icom_map" src="img/icon-map.png">&nbspТомск, ул. Котовского 19, ТЦ "Метрополис", 3 подъезд(Это возле ФОГа)</a>
+				</div><!-- contact END -->
+				<!-- telcontact -->
+				<div id="telcontact" class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 telcontact">
+					<p class="telcontact_number" ><span>8&nbsp(3822)&nbsp</span>99-40-49</p>
+					<p class="telcontact_callback">Оставьте заявку и мы перезвоним за 29 секунд!<br><a href="#" class="telcontact_callback-link">Заказать обратный звонок</a> </p> 
+				</div><!-- telcontact END -->
+				<!-- main_title -->
+				<div id="main_title-item" class="col-12 col-sm-12 col-md-6 col-lg-9 col-xl-9 main_title-item">
+					<h1 class="main_title" >Ремонт Apple, ноутбуков, телефонов, планшетов, телевизоров, фотоаппаратов и другой техники</h1>
+				</div><!-- main_title END -->
+				<!-- callback -->
+				<div id="callback" class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 callback">			
+					<form class="callback_form">
+						<input name="phone" required="required" placeholder="Введите ваш номер" class="callback_input" type="text">
+						<button class="callback_submit btn" value="Звоните!" type="submit"><img class="btn_submit" src="img/button.png" alt=""></button>
+					</form>
+				</div><!-- callback END -->
+			</div><!-- header_wrap END -->
+		</div><!-- header_block END-->
+	</header><!-- Header END -->
+	
+  
+	
+	
+	<!--main-menu -->
+	<div class="container-fluid main-menublue">
+		<div class="container menu-wrap">
+			<a href="" class="menu_link">
+				<img class="menu_link-icon" src="img/icon/apple-logo-white.svg" alt="Ремонт iPhone">
+				<p class="menu_title"><span>Ремонт iPhone,<br>iPad, Macbook</span></p>
+				<img class="icon icon-arrow" src="img/icon/arrow-white.svg" alt="">
+			</a>
+			<a href="" class="menu_link">
+				<img class="menu_link-icon" src="img/icon/phone-white.svg" alt="Ремонт Сотовых телефонов">
+				<p class="menu_title"><span>Сотовых<br>телефонов</span></p>
+				<img class="icon icon-arrow" src="img/icon/arrow-white.svg" alt="">
+			</a>
+			<a href="" class="menu_link">
+				<img class="menu_link-icon" src="img/icon/notebook-white.svg" alt="Ремонт Ноутбуков">
+				<p class="menu_title"><span>Ноутбуков</span></p>
+				<img class="icon icon-arrow" src="img/icon/arrow-white.svg" alt="">
+			</a>
+			<a href="" class="menu_link">
+				<img class="menu_link-icon" src="img/icon/tablet-white.svg" alt="Ремонт Планшетов">
+				<p class="menu_title"><span>Планшетов</span></p>
+				<img class="icon icon-arrow" src="img/icon/arrow-white.svg" alt="">
+			</a>
+			<a href="" class="menu_link">
+				<img class="menu_link-icon" src="img/icon/game-console-white.svg" alt="Ремонт Игоровых приставок">
+				<p class="menu_title"><span>Игровых<br>приставок</span></p>
+				<img class="icon icon-arrow" src="img/icon/arrow-white.svg" alt="">
+			</a>
+		</div>
+		<div class="row menusecond-wrap">
+			<p id="menusecond" class="menusecond">А также:
+				<a class="menusecond_link" href="">телевизоров</a>,
+				<a class="menusecond_link" href="">фотоаппаратов</a>,
+				<a class="menusecond_link" href="">электронных книг</a>,
+				<a class="menusecond_link" href="">Xbox</a>,
+				<a class="menusecond_link" href="">Playstation</a>,
+				<a class="menusecond_link" href="">мониторов</a>,
+				<a class="menusecond_link" href="">авторегистраторов</a>,
+				<a class="menusecond_link" href="">акустики</a>,
+				<a class="menusecond_link" href="">оргтехники</a>
+			</p>
+			<button class="btn" type="button" data-toggle="collapse" data-target="#menusecond">Показать еще</button>
+		</div>
+	</div><!--main-menu END -->
+
+  
+
+	
+	<!-- Map -->
+	<div class="container-fluid map">
+		<div class="container map_top">
+			<div class="row map_top-wrap">
+				<div class="col-sm-12 col-lg-4 map_title-wrap">
+					<h2 class="map_title">Как нас найти ?</h2>
+				</div>
+				<div class="col-sm-12 offset-lg-4 col-lg-4 map_control-wrap">
+					<div class="btn-group map_control" role="group" aria-label="mapcontrol_button">
+						<button type="button" class="btn btn_map-left"><span>Я на машине</span></button>
+						<button type="button" class="btn btn_map-right"><span>Я иду пешком</span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- MAP BODY -->
+		<div id="mapbody" class="container map_body">
+		</div><!-- MAP BODY END-->
+		<div class="mapcontact">
+			<p class="telcontact_title">Наш телефон<img class="icom_map" src="img/icon/icon_phone_gray.png"></p>
+			<p class="telcontact_number"><span>8&nbsp(3822)&nbsp</span>99-40-49</p>
+			<p class="contacts_title">Наш адрес<img class="icom_map" src="img/icon/icon_map_gray.png"></p>
+			<a href="#" class="contacts_link">Томск, ул. Котовского 19, ТЦ "Метрополис",п.3</a>
+			<p class="worktime_title">время работы<img class="icom_map" src="img/icon/clock.png"></p>	
+			<p class="worktime"><span>Пн-Пт</span> с 10:00 до 20:00 <span>Сб,Вск</span> с 11:00 до 18:00</p>
+			<div class="map_slider-item">
+				<div class="map_slider">
+					<a href="img/products/product-1.jpg" data-fancybox="images">
+						<img class="slider_image" src="img/products/product-1-1.jpg" alt="">
+					</a>
+					<a href="img/products/product-2.jpg" data-fancybox="images">
+						<img class="slider_image" src="img/products/product-2-1.jpg" alt="">
+					</a>
+					<a href="img/products/product-3.jpg" data-fancybox="images">
+						<img class="slider_image" src="img/products/product-3-1.jpg" alt="">
+					</a>
+					<a href="img/products/product-1.jpg" data-fancybox="images">
+						<img class="slider_image" src="img/products/product-1-1.jpg" alt="">
+					</a>
+					<a href="img/products/product-4.jpg" data-fancybox="images">
+						<img class="slider_image" src="img/products/product-4-1.jpg" alt="">
+					</a>
+					<a href="img/products/product-5.jpg" data-fancybox="images">
+						<img class="slider_image" src="img/products/product-5-1.jpg" alt="">
+					</a>
+				</div>
+				<div class="map_sliderlink-wrap">
+					<a class="map_sliderlink" href="" data-fancybox="images">Открыть фото</a>
+				</div>
+			</div>
+		</div>
+	</div><!-- Map END-->
+	
+
+	
+
+  <!-- mapstep -->
+  <div class="container-fluid mapstep">
+    <div class="container mapstep-block">
+      <div class="row mapstep_wrap">
+        <div class="col-12 col-sm-6 col-md-3 mapstep_item">
+          <img src="img/map/mapstep-slide-1.jpg" alt="" class="rounded mapstep_image img-fluid">
+          <h3 class="mapstetp_title">Сперва едем сюда</h3>
+          <p class="mapstep_description">Сюда – это которое вот слева от другого того самого</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 mapstep_item">
+          <img src="img/map/mapstep-slide-1.jpg" alt="" class="rounded mapstep_image img-fluid">
+          <h3 class="mapstetp_title">Затем вот здесь поворачиваем налево</h3>
+          <p class="mapstep_description">Сюда – это которое вот слева от другого того самого</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 mapstep_item">
+          <img src="img/map/mapstep-slide-1.jpg" alt="" class="rounded mapstep_image img-fluid">
+          <h3 class="mapstetp_title">Поворачиваем к этому зданию</h3>
+          <p class="mapstep_description">Сюда – это которое вот слева от другого того самого</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 mapstep_item">
+          <img src="img/map/mapstep-slide-1.jpg" alt="" class="rounded mapstep_image img-fluid">
+          <h3 class="mapstetp_title">Вы на месте!</h3>
+          <p class="mapstep_description">Сюда – это которое вот слева от другого того самого</p>
+        </div>
+      </div>
+    </div>
+  </div><!-- mapstep END -->
+  
+	
+	
+	
+
+	<!-- footer -->
+	<footer class="container-fliud sec-footer">
+		<!-- footer_block -->
+		<div class="container footer_block">
+			<!-- row footer_wrap -->
+			<div class="row footer_wrap">
+				<!-- siteName -->
+				<div class="col-12 col-sm-3 col-md-4 col-lg-3  col-xl-3 sitename">
+					<a class="sitename_link" href="/" title="Главная" >
+						<img id="logo" class="sitename_logo img-fluid" src="img/logo.png" alt="Главная"  >
+					</a>
+				</div><!-- siteName END -->
+				<!-- buyer_info -->
+				<div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 buyer">			
+					<h3 class="buyer_title">Покупателям</h3>
+					<a href="#" class="buyer_link"><span>Гарантия</span></a>
+					<a href="#" class="buyer_link"><span>Контакты</span></a>
+					<a href="#" class="buyer_link"><span>Написать директору</span></a>
+					<a href="#" class="buyer_link"><span>Статус заказа</span></a>
+				</div><!-- buyer_info END -->
+				<!-- cooperation  -->
+				<div class="col-12 col-sm-3 col-md-3 col-lg-2 col-xl-3 cooperation">
+					<h3 class="cooperation_title">Сотрудничество</h3>
+					<a href="#" class="cooperation_link"><span>Юридическим лицам</span></a>
+					<a href="#" class="cooperation_link"><span>Реквизиты</span></a>
+					<a href="#" class="cooperation_link"><span>Сотрудничество<br> с сервисными<br>центрами</span></a>
+				</div><!-- cooperation END -->
+				<div class="col-12 col-sm-6 offset-md-1 col-md-5 offset-lg-0 col-lg-4 col-xl-3 telcontact">
+					<div class="telcontact_item">
+						<p class="telcontact_number"><span>8 (3822)</span> 99-40-49</p>
+					</div>
+					<p class="telcontact_worktime">Сегодня работаем с 10:00 до 20:00</p> 
+				</div><!-- tel_cont END -->
+				<!-- address -->
+				<div class="col-12 col-sm-5 col-md-4 col-lg-6 address">
+					<a class="address_link" href="#"><img class="address_icon" src="img/icon/map-1.svg">&nbspТомск, ул. Котовского 19, ТЦ "Метрополис", 3 подъезд(Это возле ФОГа)</a>
+				</div><!-- address END -->
+				<!-- redline -->
+				<div class="col-12 col-sm-4 col-md-4 col-lg-6 redline">			
+					<p class="redline_slogan">сделано с <img class="redline_icon" src="img/icon/love-1.svg" alt=""> <a class="redline_link" href="#">RedLine</a></p>
+				</div><!-- redline END -->
+			</div><!-- footer_wrap END -->
+		</div><!-- footer_block END-->
+	</footer><!-- footer END-->
+	
+
+
+
+	<!-- JS Start -->
+	<script src="js/libs.min.js"></script>
+	<script src="js/googlemap.js" async></script>
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATvbcteJX3pTFfMtt3TVQzknp0BIp9RS4&callback=initMap">
+    </script>
+	<script src="libs/slick/slick.min.js"></script>
+	<script src="libs/fancybox/dist/jquery.fancybox.min.js" ></script>
+	<script src="js/common.js" ></script>
+	<!-- JS Start END-->
+
+</body>
+</html>

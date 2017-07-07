@@ -1,0 +1,500 @@
+	<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<!-- Template Basic Images End -->
+	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)};function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n};function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+	<!-- Load Fonts CSS Start -->
+	<script>loadCSS( "css/fonts.min.css?ver=1.0.0", false, "all" ); // Loading fonts, if the site is located in a subfolder
+	// loadLocalStorageCSS( "webfonts", "css/fonts.min.css?ver=1.0.0" ); // Loading fonts, if the site is at the root
+	</script>
+	<!-- Load Fonts CSS End -->
+	<!-- Load Custom CSS Start -->
+	<script>loadCSS( "libs/slick/slick.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "libs/slick/slick-theme.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "libs/fancybox/dist/jquery.fancybox.min.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "css/bootstrap.min.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "css/main.min.css?ver=1.0.0", false, "all" );</script>
+	<!-- Load Custom CSS End -->
+	<!-- Load Custom CSS Compiled without JS Start -->
+	<noscript>
+		<link rel="stylesheet" href="css/fonts.min.css">
+		<link rel="stylesheet" href="css/main.min.css">
+	</noscript>
+	<!-- Load Custom CSS Compiled without JS End -->
+	<!-- Custom Browsers Color Start -->
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<!-- Custom Browsers Color End -->
+</head>
+<body>
+	
+
+	<!-- Header -->
+	<header class="container-fliud sec-header">
+		<!-- header_block -->
+		<div class="container header_block">
+			<!-- header_wrap -->
+			<div class="row header_wrap">
+				<!-- sitename -->
+				<div id="sitename" class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-3 sitename">
+					<a class="sitename_link" href="/" title="Главная" >
+						<img class="sitename_link-logo img-fluid" id="sitename_link-logo" src="img/logo.png" alt="Главная"  >
+					</a>
+				</div><!-- sitename END -->
+				<!-- contact -->
+				<div id="contacts" class="col-12 col-sm-12 col-md-5 col-lg-6 col-xl-6 contacts">			
+					<p class="contacts_worktime" >Сегодня работаем с 10:00 до 20:00</p>
+					<a class="contacts_link" href=""><img class="icom_map" src="img/icon-map.png">&nbspТомск, ул. Котовского 19, ТЦ "Метрополис", 3 подъезд(Это возле ФОГа)</a>
+				</div><!-- contact END -->
+				<!-- telcontact -->
+				<div id="telcontact" class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 telcontact">
+					<p class="telcontact_number" ><span>8&nbsp(3822)&nbsp</span>99-40-49</p>
+					<p class="telcontact_callback">Оставьте заявку и мы перезвоним за 29 секунд!<br><a href="#" class="telcontact_callback-link">Заказать обратный звонок</a> </p> 
+				</div><!-- telcontact END -->
+				<!-- main_title -->
+				<div id="main_title-item" class="col-12 col-sm-12 col-md-6 col-lg-9 col-xl-9 main_title-item">
+					<h1 class="main_title" >Ремонт Apple, ноутбуков, телефонов, планшетов, телевизоров, фотоаппаратов и другой техники</h1>
+				</div><!-- main_title END -->
+				<!-- callback -->
+				<div id="callback" class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 callback">			
+					<form class="callback_form">
+						<input name="phone" required="required" placeholder="Введите ваш номер" class="callback_input" type="text">
+						<button class="callback_submit btn" value="Звоните!" type="submit"><img class="btn_submit" src="img/button.png" alt=""></button>
+					</form>
+				</div><!-- callback END -->
+			</div><!-- header_wrap END -->
+		</div><!-- header_block END-->
+	</header><!-- Header END -->
+	
+  
+	
+	
+	<!--main-menu -->
+	<div class="container-fluid main-menublue">
+		<div class="container menu-wrap">
+			<a href="" class="menu_link">
+				<img class="menu_link-icon" src="img/icon/apple-logo-white.svg" alt="Ремонт iPhone">
+				<p class="menu_title"><span>Ремонт iPhone,<br>iPad, Macbook</span></p>
+				<img class="icon icon-arrow" src="img/icon/arrow-white.svg" alt="">
+			</a>
+			<a href="" class="menu_link">
+				<img class="menu_link-icon" src="img/icon/phone-white.svg" alt="Ремонт Сотовых телефонов">
+				<p class="menu_title"><span>Сотовых<br>телефонов</span></p>
+				<img class="icon icon-arrow" src="img/icon/arrow-white.svg" alt="">
+			</a>
+			<a href="" class="menu_link">
+				<img class="menu_link-icon" src="img/icon/notebook-white.svg" alt="Ремонт Ноутбуков">
+				<p class="menu_title"><span>Ноутбуков</span></p>
+				<img class="icon icon-arrow" src="img/icon/arrow-white.svg" alt="">
+			</a>
+			<a href="" class="menu_link">
+				<img class="menu_link-icon" src="img/icon/tablet-white.svg" alt="Ремонт Планшетов">
+				<p class="menu_title"><span>Планшетов</span></p>
+				<img class="icon icon-arrow" src="img/icon/arrow-white.svg" alt="">
+			</a>
+			<a href="" class="menu_link">
+				<img class="menu_link-icon" src="img/icon/game-console-white.svg" alt="Ремонт Игоровых приставок">
+				<p class="menu_title"><span>Игровых<br>приставок</span></p>
+				<img class="icon icon-arrow" src="img/icon/arrow-white.svg" alt="">
+			</a>
+		</div>
+		<div class="row menusecond-wrap">
+			<p id="menusecond" class="menusecond">А также:
+				<a class="menusecond_link" href="">телевизоров</a>,
+				<a class="menusecond_link" href="">фотоаппаратов</a>,
+				<a class="menusecond_link" href="">электронных книг</a>,
+				<a class="menusecond_link" href="">Xbox</a>,
+				<a class="menusecond_link" href="">Playstation</a>,
+				<a class="menusecond_link" href="">мониторов</a>,
+				<a class="menusecond_link" href="">авторегистраторов</a>,
+				<a class="menusecond_link" href="">акустики</a>,
+				<a class="menusecond_link" href="">оргтехники</a>
+			</p>
+			<button class="btn" type="button" data-toggle="collapse" data-target="#menusecond">Показать еще</button>
+		</div>
+	</div><!--main-menu END -->
+
+  
+
+	
+
+  <!-- repair -->
+  <div class="container-fluid repair">
+    <!-- repair_block -->
+    <div class="container repair_block">
+      <!-- repair_top-wrap -->
+      <div class="row repair_top-wrap">
+        <div class="col lg-12 repair_title-item">
+          <p class="repair_mainnav">Главная / <span class="repair_mainnav-link">Ремонт Ноутбуков</span> /</p>
+          <h2 class="repair_title">Ремонт ноутбуков</h2>
+        </div>
+      </div><!-- repair_top-wrap END -->
+      <!-- repair_body-wrap -->
+      <div class="row repair_body-wrap">
+        <!-- repair_body (description + search +pricelist) -->
+        <div class="col-lg-8 repair_body">
+          <div class="row repair_description-wrap">
+            <div class="col-lg-12 repair_description-item">
+              <p class="repair_description">Примеряем разные фоны и отправляемся на обсуждение с заказчиком. Хотя, казалось бы, что тут примерять. Но тем не менее рыбу-то так и не стал искать, ох, люблю писать всякую чушь. Чем бы дитя не тешилось, как говорится, а шрифт подобрать придется. Мало жизни и больше подходит для мобильных. Берем карту в работу и как побежали кони такие.</p>
+            </div>
+          </div>
+          <!-- repair search + pricelist(table) -->
+          <div class="row repair_search-wrap">
+            <div class="col-12 col-sm-4 repair_search">
+              <div class="row">
+                <div class="col-12">
+                  <h3 class="repair_search-title">Бренд</h3>
+                </div>
+                <div class="col-12">
+                  <input type="search" class="form-control repair_search-input" id="repair_search-input" placeholder="Введите название бренда">
+                </div>
+              </div>
+            </div>
+            <!-- pricelist -->
+            <div class="col-12 col-sm-8 repair_pricelist-wrap">
+              <!-- pricelist_table -->
+              <table class="table repair_pricelist">
+                <!-- pricelist_table-head -->
+                <thead class="pricelist_top">
+                    <tr class="pricelist_line">
+                      <th class="pricelist_name-title">Наименование</th>
+                      <th class="pricelist_price-title">Стоимость</th>
+                    </tr>
+                </thead><!-- pricelist_table-head END -->
+                <!-- pricelist_table-body -->
+                <tbody class="pricelist_body">
+                  <tr class="pricelist_line">
+                    <td class="pricelist_name">Замена корпуса</td>
+                    <td class="pricelist_price">от 1000 р</td>
+                  </tr>
+                  <tr class="pricelist_line">
+                    <td class="pricelist_name">Замена материнской платы</td>
+                    <td class="pricelist_price">от 11000 р</td>
+                  </tr>
+                  <tr class="pricelist_line">
+                    <td class="pricelist_name">Замена корпуса</td>
+                    <td class="pricelist_price">от 1000 р</td>
+                  </tr>
+                  <tr class="pricelist_line">
+                    <td class="pricelist_name">Замена материнской платы</td>
+                    <td class="pricelist_price">от 11000 р</td>
+                  </tr>
+                  <tr class="pricelist_line">
+                    <td class="pricelist_name">Замена корпуса</td>
+                    <td class="pricelist_price">от 1000 р</td>
+                  </tr>
+                  <tr class="pricelist_line">
+                    <td class="pricelist_name">Замена материнской платы</td>
+                    <td class="pricelist_price">от 11000 р</td>
+                  </tr>
+                  <tr class="pricelist_line">
+                    <td class="pricelist_name">Замена корпуса</td>
+                    <td class="pricelist_price">от 1000 р</td>
+                  </tr>
+                  <tr class="pricelist_line">
+                    <td class="pricelist_name">Замена материнской платы</td>
+                    <td class="pricelist_price">от 11000 р</td>
+                  </tr>
+                  <tr class="pricelist_line">
+                    <td class="pricelist_name">Замена корпуса</td>
+                    <td class="pricelist_price">от 1000 р</td>
+                  </tr>
+                  <tr class="pricelist_line">
+                    <td class="pricelist_name">Замена материнской платы</td>
+                    <td class="pricelist_price">от 11000 р</td>
+                  </tr>
+                </tbody><!-- pricelist_table-body END -->
+              </table><!-- pricelist_table END -->
+              <!-- pricelist_navigation -->
+              <nav class="pricelist_nav">
+                <ul class="pagination">
+                  <li class="page-item disabled">
+                    <a class="page-link invisible" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link active" href="#">1 <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">4</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav><!-- pricelist_navigation END-->
+            </div><!-- pricelist END-->
+          </div><!-- repair search + pricelist(table) END -->
+        </div><!-- repair_body (description + search +pricelist) END -->
+        <!-- repair_sidebar -->
+        <div class="col-lg-4 repair_sidebar">
+          <div class="row diagnostic_wrap">
+            <div class="col-sm-6 col-lg-12 diagnostic_description-wrap">
+              <p class="diagnostic_tel"><span>8 (3822)</span> 99-40-49</p>
+              <p class="diagnostic_address">ул. Котовского 19, ТЦ "Метрополис"</p>
+              <a class="diagnostic_link" href="#">Не уверены как добраться?</a>
+              <p class="diagnostic_proposal">Привезите технику в пункт приема и мы продиагностируем ее бесплатно для уточнения стоимости ремонта</p>
+            </div>
+            <div class="col-sm-6 col-lg-12 diagnostic_control-wrap">
+              <p class="diagnostic_manager">Менеджер позвонит и расскажет все детали. Это беслатно</p>  
+              <input type="tel" class="form-control diagnostic_input" id="#" aria-describedby="your telephon" placeholder="Hомер телефона">
+              <button class="btn" type="submit">Записаться на диагностику</button>
+              <p class="diagnostic_sms"><img src="img/icon/love-1.png" alt="">в СМС вы получите купон на скидку</p>
+            </div>
+          </div>
+        </div><!-- repair_sidebar END-->
+      </div><!-- repair_body-wrap END-->
+    </div><!-- repair_block END -->
+  </div> <!-- repair END -->
+  
+  
+
+	
+
+  <!-- whywebetter -->
+  <div class="container-fliud whywebetter">
+    <!-- whywebetter_title -->
+    <h2 class="text-center whywebetter_maintitle">Чем мы лучше других?</h2>
+    <!-- whywebetter_title END -->
+    <!-- whywebetter_body -->
+    <div class="container whywebetter_body">
+      <div class="row whywebetter_body-wrap">
+        <div class="col-sm-6 col-lg-3 whywebetter_item">
+          <img class="whywebetter_image img-fluid" src="img/icon/economy.svg" alt="">
+          <h3 class="whywebetter_title" >Беслатная диагностика</h3> 
+          <P class="whywebetter_description" > Вы узнаете стоимость ремонта, не заплатив ни рубля</P>
+        </div>
+        <div class="col-sm-6 col-lg-3 whywebetter_item">
+          <img class="whywebetter_image img-fluid" src="img/icon/hardware.svg" alt="">
+          <h3 class="whywebetter_title">Запчасти в наличии</h3>
+          <P class="whywebetter_description">Это сокращает срок ремонта вплоть до одного часа</P>
+        </div>
+        <div class="col-sm-6 col-lg-3 whywebetter_item">
+          <img class="whywebetter_image img-fluid" src="img/icon/quality.svg" alt="">
+          <h3 class="whywebetter_title" >Высококлассные мастера</h3>
+          <P class="whywebetter_description" >Наши мастера прошли трехуровневую сертификацию</P>
+        </div>
+        <div class="col-sm-6 col-lg-3 whywebetter_item">
+          <img class="whywebetter_image img-fluid" src="img/icon/shield.svg" alt="">
+          <h3 class="whywebetter_title" >Гарантия один месяц</h3>
+          <P class="whywebetter_description" >Мы исправим неполадку или вернем деньги</P>
+        </div>
+      </div>
+    </div><!-- whywebetter_body END-->
+  </div><!-- whywebetter END -->
+	
+  
+
+	
+
+	<!-- questions -->
+	<div class="container-fliud questions">
+		<!-- questions_list-wrap -->
+		<div class="questions_list-wrap">
+			<h2 class="questions_maintitle">Вопросы</h2>
+			<!-- questions_list -->
+			<div class="questions_list">
+				<!-- clientask -->
+				<div class="media clientask">
+					<img class="d-flex mr-3 user_avatar" src="img/avatar-4-31.jpg" alt="Generic placeholder image">
+					<div class="media-body">
+						<h5 class="user_name">Анастасия Петрова</h5>
+						<p class="clientask_comment">Здравствуйте, да ремонтируем. И у нас есть услуги курьера, для этого Вам необходимо позвонить по номеру 99-40-49 и сделать заявку Здравствуйте, да ремонтируем. И у нас есть услуги курьера, для этого Вам необходимо позвонить по номеру 99-40-49 и сделать заявку Здравствуйте, да ремонтируем. И у нас есть услуги курьера, для этого Вам необходимо позвонить по номеру 99-40-49 и сделать заявку</p>
+					</div>
+				</div><!-- clientask END -->
+				<!-- companyanswer -->
+				<div class="media companyanswer">
+					<img class="d-flex user_avatar" src="img/avatar_company-60.png" alt="Generic placeholder image">
+					<div class="media-body">
+						<h5 class="user_name">Анастасия Петрова</h5>
+						<p class="companyanswer_comment">Здравствуйте, да ремонтируем. И у нас есть услуги курьера, для этого Вам необходимо позвонить по номеру 99-40-49 и сделать заявку</p>
+					</div>
+				</div><!-- companyanswer END-->
+				<!-- clientask -->
+				<div class="media clientask">
+					<img class="d-flex user_avatar" src="img/avatar_no-60.png" alt="Generic placeholder image">
+					<div class="media-body">
+						<h5 class="user_name">Анастасия Петрова</h5>
+						<p class="clientask_comment">Здравствуйте, да ремонтируем. И у нас есть услуги курьера, для этого Вам необходимо позвонить по номеру 99-40-49 и сделать заявку Здравствуйте, да ремонтируем. И у нас есть услуги курьера, для этого Вам необходимо позвонить по номеру 99-40-49 и сделать заявку Здравствуйте, да ремонтируем. И у нас есть услуги курьера, для этого Вам необходимо позвонить по номеру 99-40-49 и сделать заявку Здравствуйте, да ремонтируем. И у нас есть услуги курьера, для этого Вам необходимо позвонить по номеру 99-40-49 и сделать заявку Здравствуйте, да ремонтируем. И у нас есть услуги курьера, для этого Вам необходимо позвонить по номеру 99-40-49 и сделать заявку</p>
+					</div>
+				</div><!-- clientask END -->
+				<!-- companyanswer -->
+				<div class="media companyanswer">
+					<img class="d-flex user_avatar" src="img/avatar_company-60.png" alt="Generic placeholder image">
+					<div class="media-body">
+						<h5 class="user_name">Анастасия Петрова</h5>
+						<p class="companyanswer_comment">Здравствуйте, да ремонтируем. И у нас есть услуги курьера, для этого Вам необходимо позвонить по номеру 99-40-49 и сделать заявку</p>
+					</div>
+				</div><!-- companyanswer END-->
+				<!-- clientask -->
+				<div class="media clientask">
+					<img class="d-flex user_avatar" src="img/avatar-4-31.jpg" alt="Generic placeholder image">
+					<div class="media-body">
+						<h5 class="user_name">Анастасия Петрова</h5>
+						<p class="clientask_comment">Здравствуйте, да ремонтируем. И у нас есть услуги курьера, для этого Вам необходимо позвонить </p>
+					</div>
+				</div><!-- clientask END -->
+				<!-- companyanswer -->
+				<div class="media companyanswer">
+					<img class="d-flex user_avatar" src="img/avatar_company-60.png" alt="Generic placeholder image">
+					<div class="media-body">
+						<h5 class="user_name">Сергей Петров</h5>
+						<p class="companyanswer_comment">Здравствуйте, да ремонтируем. И у нас есть услуги курьера, для этого Вам необходимо позвонить по номеру 99-40-49 и сделать заявку</p>
+					</div>
+				</div><!-- companyanswer END-->
+				<!-- companyanswer_bottom -->
+				<div class="row companyanswer_bottom">
+					<div class="col-xl-2 companyanswer_count-wrap">
+						<p class="companyanswer_count">Всего<span>88</span></p>
+					</div>
+					<div class="col-xl-10 questions_nav-wrap">
+						<!-- questions_nav -->
+						<nav class="questions_nav">
+							<ul class="pagination">
+								<li class="page-item disabled">
+									<a class="page-link invisible" href="#" aria-label="Previous">
+										<span aria-hidden="true">&laquo;</span>
+										<span class="sr-only">Previous</span>
+									</a>
+								</li>
+								<li class="page-item">
+									<a class="page-link active" href="#">1</a>
+								</li>
+								<li class="page-item">
+									<a class="page-link" href="#">2</a>
+								</li>
+								<li class="page-item">
+									<a class="page-link" href="#">3</a>
+								</li>
+								<li class="page-item">
+									<a class="page-link" href="#">4</a>
+								</li>
+								<li class="page-item">
+									<a class="page-link" href="#" aria-label="Next">
+										<span aria-hidden="true">&raquo;</span>
+										<span class="sr-only">Next</span>
+									</a>
+								</li>
+							</ul>
+						</nav><!-- questions_nav END -->
+					</div>
+				</div><!-- companyanswer_bottom END -->
+			</div><!-- questions_list END -->
+		</div><!-- questions_list-wrap END -->
+		<!-- questions_form-wrap -->
+		<div class="questions_form-wrap">
+			<!-- questions_form -->
+			<div class="questions_form">
+				<p class="questions_description">Задайте свой вопрос</p>
+				<!-- questions_form-body -->
+				<form action="#" class="questions_form-body">
+					<div class="form-group">
+						<!-- questions_input-wrap -->
+						<div class="questions_input-wrap">
+							<input type="name" class="form-control questions_input questions_input-name" id="#" aria-describedby="your email" placeholder="Ваше имя">
+							<input type="tel" class="form-control questions_input questions_input-number" id="#" aria-describedby="your email" placeholder="Hомер телефона">
+							<input type="email" class="form-control questions_input questions_input-email" id="#" aria-describedby="your email" placeholder="Ваш E-mail">
+						</div><!-- questions_input-wrap END -->
+						<textarea class="form-control questions_input-text" id="client-question" rows="5" placeholder="Текст вопроса ..."></textarea>
+						<button type="submit" class="btn">Отправьте вопрос</button>
+					</div>
+				</form><!-- questions_form-body END-->
+			</div><!-- questions_form END-->
+		</div><!-- questions_form-wrap END-->
+	</div><!-- questions END -->
+	
+  
+	
+	
+
+	<!-- footer -->
+	<footer class="container-fliud sec-footer">
+		<!-- footer_block -->
+		<div class="container footer_block">
+			<!-- row footer_wrap -->
+			<div class="row footer_wrap">
+				<!-- siteName -->
+				<div class="col-12 col-sm-3 col-md-4 col-lg-3  col-xl-3 sitename">
+					<a class="sitename_link" href="/" title="Главная" >
+						<img id="logo" class="sitename_logo img-fluid" src="img/logo.png" alt="Главная"  >
+					</a>
+				</div><!-- siteName END -->
+				<!-- buyer_info -->
+				<div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 buyer">			
+					<h3 class="buyer_title">Покупателям</h3>
+					<a href="#" class="buyer_link"><span>Гарантия</span></a>
+					<a href="#" class="buyer_link"><span>Контакты</span></a>
+					<a href="#" class="buyer_link"><span>Написать директору</span></a>
+					<a href="#" class="buyer_link"><span>Статус заказа</span></a>
+				</div><!-- buyer_info END -->
+				<!-- cooperation  -->
+				<div class="col-12 col-sm-3 col-md-3 col-lg-2 col-xl-3 cooperation">
+					<h3 class="cooperation_title">Сотрудничество</h3>
+					<a href="#" class="cooperation_link"><span>Юридическим лицам</span></a>
+					<a href="#" class="cooperation_link"><span>Реквизиты</span></a>
+					<a href="#" class="cooperation_link"><span>Сотрудничество<br> с сервисными<br>центрами</span></a>
+				</div><!-- cooperation END -->
+				<div class="col-12 col-sm-6 offset-md-1 col-md-5 offset-lg-0 col-lg-4 col-xl-3 telcontact">
+					<div class="telcontact_item">
+						<p class="telcontact_number"><span>8 (3822)</span> 99-40-49</p>
+					</div>
+					<p class="telcontact_worktime">Сегодня работаем с 10:00 до 20:00</p> 
+				</div><!-- tel_cont END -->
+				<!-- address -->
+				<div class="col-12 col-sm-5 col-md-4 col-lg-6 address">
+					<a class="address_link" href="#"><img class="address_icon" src="img/icon/map-1.svg">&nbspТомск, ул. Котовского 19, ТЦ "Метрополис", 3 подъезд(Это возле ФОГа)</a>
+				</div><!-- address END -->
+				<!-- redline -->
+				<div class="col-12 col-sm-4 col-md-4 col-lg-6 redline">			
+					<p class="redline_slogan">сделано с <img class="redline_icon" src="img/icon/love-1.svg" alt=""> <a class="redline_link" href="#">RedLine</a></p>
+				</div><!-- redline END -->
+			</div><!-- footer_wrap END -->
+		</div><!-- footer_block END-->
+	</footer><!-- footer END-->
+	
+
+
+	
+	<!-- JS Start -->
+	<script src="js/libs.min.js"></script>
+	<script src="libs/tether-1.3.3/js/tether.min.js"></script>
+	<script src="js/googlemap.js" async></script>
+	<script src="libs/slick/slick.min.js"></script>
+	<script src="libs/fancybox/dist/jquery.fancybox.min.js" ></script>
+	<script src="js/common.js" ></script>
+	<!-- JS Start END-->
+
+</body>
+</html>
