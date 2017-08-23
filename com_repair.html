@@ -17,31 +17,56 @@
         <div class="col-lg-8 repair_body">
           <div class="row repair_description-wrap">
             <div class="col-lg-12 repair_description-item">
-              <p class="repair_description">Примеряем разные фоны и отправляемся на обсуждение с заказчиком. Хотя, казалось бы, что тут примерять. Но тем не менее рыбу-то так и не стал искать, ох, люблю писать всякую чушь. Чем бы дитя не тешилось, как говорится, а шрифт подобрать придется. Мало жизни и больше подходит для мобильных. Берем карту в работу и как побежали кони такие.</p>
+              <p class="repair_description">Это телефоны</p>
             </div>
           </div>
           <!-- repair search + pricelist(table) -->
           <div class="row repair_search-wrap">
+            <!-- repair_search -->
             <div class="col-12 col-sm-4 repair_search">
-              <div class="row">
-                <div class="col-12">
-                  <h3 class="repair_search-title">Бренд</h3>
-                </div>
-                <div class="col-12">
-                  <input type="search" class="form-control repair_search-input" id="repair_search-input" placeholder="Введите название бренда">
-                </div>
+              <!-- repair_search-group -->
+              <div class="repair_search-group">
+                <input type="search" class="form-control repair_search-input" id="repair_search-input" placeholder="Поиск по работам">
+                <!-- troubleshooting_body -->
+                <div class="troubleshooting_body">
+                  <input type="search" class="form-control brand_search-input" id="brand_search-input" data-toggle="hideseek" data-list=".brand_name-tablet" name="brand_search-input" placeholder="&nbsp Быстрый поиск бренда">
+                  <p class="brand_search-label">Выберите ваше устройство</p>
+                  <!-- test content !!! -->
+                  <!-- search_result-wrap -->
+                  <div class="search_result-wrap">
+                    <ul class="brand_name-tablet list-group brand_search-results">
+                      <li class="list-group-item disabled">Найдено&nbsp<span class="brand_search-count">3</span>&nbspсовпадения</li>
+                      <li class="list-group-item">Samsung Samsung </li>
+                      <li class="list-group-item">Sony</li>
+                      <li class="list-group-item">Sony Ericson</li>
+                      <li class="list-group-item">Apple</li>
+                      <li class="list-group-item">Samsung Samsung</li>
+                      <li class="list-group-item">Sony</li>
+                      <li class="list-group-item">Sony Ericson</li>
+                      <li class="list-group-item">Apple</li>
+                      <li class="list-group-item">Samsung Samsung</li>
+                      <li class="list-group-item">Sony</li>
+                      <li class="list-group-item">Sony Ericson</li>
+                      <li class="list-group-item">Apple</li>
+                    </ul>
+                  </div><!-- search_result-wrap END -->
+                  <!-- test content !!! END -->
+                </div><!-- troubleshooting_body END -->                   
+              </div><!-- repair_search-group END -->
+              <div class="repair_search-imgwrap">
+                <img src="img/products/iphone-3.jpg" alt="" class="repair_search-img img-fluid">
               </div>
-            </div>
+            </div><!-- repair_search END -->
             <!-- pricelist -->
             <div class="col-12 col-sm-8 repair_pricelist-wrap">
               <!-- pricelist_table -->
               <table class="table repair_pricelist">
                 <!-- pricelist_table-head -->
                 <thead class="pricelist_top">
-                    <tr class="pricelist_line">
-                      <th class="pricelist_name-title">Наименование</th>
-                      <th class="pricelist_price-title">Стоимость</th>
-                    </tr>
+                  <tr class="pricelist_line">
+                    <th class="pricelist_name-title">Наименование</th>
+                    <th class="pricelist_price-title">Стоимость</th>
+                  </tr>
                 </thead><!-- pricelist_table-head END -->
                 <!-- pricelist_table-body -->
                 <tbody class="pricelist_body">

@@ -1,14 +1,4 @@
 $(document).ready(function(){
-	//advantage_sliderlink
-	$(".advantage_sliderlink").on('click', function(){
-		$(this).attr("href",$(".advantage_slider .slick-current").attr("href"));
-	});
-	//advantage_sliderlink END
-	//test_sliderlink
-	$(".test_sliderlink").on('click', function(){
-		$(this).attr("href",$(".test_slider .slick-current").attr("href"));
-	});
-	//test_sliderlink END
 	//menusecond collapse
 	$(".btn_menusecond").click(function(){
 		$(".menusecond").toggle("slow");
@@ -39,81 +29,89 @@ $(document).ready(function(){
   	slidesToScroll: 5,
 		centerMode: true,
 		responsive: [
-    {
-      breakpoint: 1279,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 3
-      }
-    },
-    {
-      breakpoint: 1023,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 767,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-				centerMode: false
-      }
-    }
-  ]
+			{
+				breakpoint: 1279,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 3
+				}
+			},
+			{
+				breakpoint: 1023,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 2
+				}
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					centerMode: false
+				}
+			}
+		]
 	});
 	//slick slider pricelist END
 	//advantage_slider
+	//advantage_sliderlink
+	$(".advantage_sliderlink").on('click', function(){
+		$(this).attr("href",$(".advantage_slider .slick-current").attr("href"));
+	});
+	//advantage_sliderlink END
 	$().fancybox({
 		selector : '[data-fancybox="images"]',
 		thumbs   : false,
 		hash     : false,
 	});
 	$(".advantage_slider").slick({
-			slidesToShow   : 5,
-			slidesToScroll : 2,
-			dots       : false,
-			arrows     : false,
-			responsive: [
-		{
-			breakpoint: 1279,
-			settings: {
-				slidesToShow: 6,
-				arrows     : false,
-				slidesToScroll: 2
+		slidesToShow   : 5,
+		slidesToScroll : 2,
+		dots       : false,
+		arrows     : false,
+		responsive: [
+			{
+				breakpoint: 1279,
+				settings: {
+					slidesToShow: 6,
+					arrows     : false,
+					slidesToScroll: 2
+				}
+			},
+			{
+				breakpoint: 1023,
+				settings: {
+					slidesToShow: 5,
+					slidesToScroll: 2
+				}
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					dots       : true,
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					centerMode: false
+				}
+			},
+			{
+				breakpoint: 420,
+				settings: {
+					dots       : true,
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					centerMode: false
+				}
 			}
-		},
-		{
-			breakpoint: 1023,
-			settings: {
-				slidesToShow: 5,
-				slidesToScroll: 2
-			}
-		},
-		{
-			breakpoint: 767,
-			settings: {
-				dots       : true,
-				slidesToShow: 3,
-				slidesToScroll: 1,
-				centerMode: false
-			}
-		},
-		{
-			breakpoint: 420,
-			settings: {
-				dots       : true,
-				slidesToShow: 3,
-				slidesToScroll: 1,
-				centerMode: false
-			}
-		}
 		]
 	});
 	//advantage_slider END
-	//map_slider
-	//map_slider END
+	//map_sliderlink
+	$(".map_sliderlink").on('click', function(){
+		$(this).attr("href",$(".map_slider .slick-current").attr("href"));
+	});
+	//map_sliderlink END
 	//map_slider
 	$(".map_slider").slick({
 		slidesToShow   : 3,
@@ -121,29 +119,29 @@ $(document).ready(function(){
 		arrows     : false,
 		dots       : false,
 		responsive: [
-		{
-			breakpoint: 1023,
-			settings: {
-				dots       : true,
-				slidesToShow: 5,
-				slidesToScroll: 1,
-				centerMode: false
+			{
+				breakpoint: 1023,
+				settings: {
+					dots       : true,
+					slidesToShow: 5,
+					slidesToScroll: 1,
+					centerMode: false
+				}
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					dots       : true,
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					centerMode: false
+				}
 			}
-		},
-		{
-			breakpoint: 767,
-			settings: {
-				dots       : true,
-				slidesToShow: 3,
-				slidesToScroll: 1,
-				centerMode: false
-			}
-		}
 		]	
 	});
 	//map_slider END
 });
-	
-	
+
+
 
 
